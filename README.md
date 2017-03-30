@@ -17,16 +17,6 @@
 * ### 导流入口多
 * ### 分发效率高
 
-### 目前支持HTML5的浏览器有:
-
-<div align="center" >
-<img src="source/images/document/chrome.jpg" width="50px" />
-<img src="source/images/document/Firefox.jpg" width="50px" />
-<img src="source/images/document/IE.jpg" width="50px" />
-<img src="source/images/document/Opear.jpg" width="50px" />
-<img src="source/images/document/Safari.jpg" width="50px" />
-<div>
-
 ## 概念
 
 
@@ -169,4 +159,14 @@
  <div align="center" >
  <img src="source/images/document/html5layout.jpg" width:"100px"; height="100px" />
  <img src="source/images/document/tranditionallayout.jpg" width:"100px"; height="100px"  />
+ <div>
+ 
+ ### 目前支持HTML5的浏览器有:
+ 
+ <div align="center" >
+ <img src="source/images/document/chrome.jpg" width="50px" />
+ <img src="source/images/document/Firefox.jpg" width="50px" />
+ <img src="source/images/document/IE.jpg" width="50px" />
+ <img src="source/images/document/Opear.jpg" width="50px" />
+ <img src="source/images/document/Safari.jpg" width="50px" />
  <div>

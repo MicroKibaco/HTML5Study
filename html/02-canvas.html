@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        canvas {
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            margin: auto;
+            background: #abcdef;
+
+        }
+
+    </style>
+</head>
+<body>
+<canvas id="canvas" width="1024" height="768">
+    Canvas 元素用于在网页上绘制图形
+    Canvas 元素使用 JavaScript 在网页上绘制图像 画布是一个矩形区域,您可以控制其每一像素
+</canvas>
+</body>
+</html>
+
+<script type="text/javascript">
+
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext('2d');
+    context.moveTo(100, 100);
+    context.lineTo(200, 200);
+    context.stroke();
+
+</script>

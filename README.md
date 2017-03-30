@@ -30,19 +30,19 @@
 ## 概念
 
 
- ```
-HTML 5 ≈ HTML+CSS 3+Javascript+API
- ```
+ 
+#### HTML 5 ≈ HTML+CSS 3+Javascript+API
+ 
  
 ## 标准改变
 ### 不是SGML/XML
-   ```
- HTML5 并不是定义为SGML或者XML的应用程序。
-   ```
+
+####  HTML5 并不是定义为SGML或者XML的应用程序。
+   
 ### DTD
-  ```
- HTML5的DTD声明中不需要使用DTD文件
-  ```
+
+#### HTML5的DTD声明中不需要使用DTD文件
+ 
   
 ## 新增标签
 ### 结构标签  --- 有意义的div
@@ -133,25 +133,25 @@ HTML 5 ≈ HTML+CSS 3+Javascript+API
  
 1. ### Input
 
-```
-email/url/number/range/Date picker/search/color/tel
-```
+
+#### email/url/number/range/Date picker/search/color/tel
+
 2. ### 表单属性
 
-```
-autocomplete/autofocus/multiple/placeholder/required
-```
+
+#### autocomplete/autofocus/multiple/placeholder/required
+
 
 3. ### 链接属性
 
-```
-size/target/超链接
-```
+
+#### size/target/超链接
+
 
 3. ### 其他属性
-```
-script/ol/html/style
-```
+
+#### script/ol/html/style
+
 
 > manifest=“cache.manifest”(定义页面离线应用文件) <html manifest=“cache.manifest”>
 > scoped:内嵌CSS
@@ -167,6 +167,6 @@ script/ol/html/style
  > 新的结构标签带来的是网页布局的改变及提升对搜索引擎的友好
  
  <div align="center" >
- <img src="source/images/document/html5layout.jpg"  />
- <img src="source/images/document/tranditionallayout.jpg"  />
+ <img src="source/images/document/html5layout.jpg" width:"100px"; height="100px" />
+ <img src="source/images/document/tranditionallayout.jpg" width:"100px"; height="100px"  />
  <div>

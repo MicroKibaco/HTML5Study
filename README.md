@@ -20,11 +20,11 @@
 ### 目前支持HTML5的浏览器有:
 
 <div align="center" >
-<img src="../source/images/document/chrome.jpg" width="50px" />
-<img src="../source/images/document/Firefox.jpg" width="50px" />
-<img src="../source/images/document/IE.jpg" width="50px" />
-<img src="../source/images/document/Opear.jpg" width="50px" />
-<img src="../source/images/document/Safari.jpg" width="50px" />
+<img src="source/images/document/chrome.jpg" width="50px" />
+<img src="source/images/document/Firefox.jpg" width="50px" />
+<img src="source/images/document/IE.jpg" width="50px" />
+<img src="source/images/document/Opear.jpg" width="50px" />
+<img src="source/images/document/Safari.jpg" width="50px" />
 <div>
 
 ## 概念
@@ -167,6 +167,6 @@ script/ol/html/style
  > 新的结构标签带来的是网页布局的改变及提升对搜索引擎的友好
  
  <div align="center" >
- <img src="../source/images/document/html5layout.jpg"  />
- <img src="../source/images/document/tranditionallayout.jpg"  />
+ <img src="source/images/document/html5layout.jpg"  />
+ <img src="source/images/document/tranditionallayout.jpg"  />
  <div>

@@ -165,3 +165,8 @@ script/ol/html/style
 2. ##### 减少了以前用于CSS 调用的class 和 id 属性
 3. ##### 对搜索引擎的友好 
  > 新的结构标签带来的是网页布局的改变及提升对搜索引擎的友好
+ 
+ <div align="center" >
+ <img src="../source/images/document/html5layout.jpg"  />
+ <img src="../source/images/document/tranditionallayout.jpg"  />
+ <div>

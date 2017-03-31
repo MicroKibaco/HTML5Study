@@ -1,3 +1,4 @@
+/*All Tag*/
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +7,21 @@
     font-size: 14px;
 }
 
+header, nav, section, aside, article, footer {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
-
     list-style: none;
-
 }
 
-header {
+/*header*/
 
+header {
     height: 80px;
     background: #000;
     position: relative;
@@ -34,25 +38,19 @@ header:after {
 }
 
 header > .container {
-
     width: 1200px;
     margin: 0 auto;
     position: relative;
-
 }
 
 header > .container > a {
-
     display: block;
     float: left;
     margin: 5px 25px;
-
 }
 
 header > .container > nav {
-
     float: right;
-
 }
 
 header > .container > nav > a {
@@ -64,7 +62,6 @@ header > .container > nav > a {
     line-height: 73px;
     text-align: center;
     color: #fff;
-
 }
 
 header > .container > nav > a.Home {
@@ -163,6 +160,7 @@ header:after {
 
 }
 
+/*main*/
 .main {
 
     width: 1200px;
@@ -215,7 +213,69 @@ header:after {
     left: 92px;
     top: -1px;
     font-weight: bold;
-    line-height:16px;
+    line-height: 16px;
     font-size: 16px;
+    text-decoration: underline;
 
+}
+
+.main > aside > dl > dt > dd:first-of-type {
+    position: absolute;
+    left: 0;
+}
+
+.main > aside > dl > dt > dd:last-of-type {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+
+.main > aside > p,
+.main > aside > img {
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    background: #000000;
+}
+
+footer:before {
+    position: absolute;
+    z-index: -1;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    content: '';
+    background: #d6d6d6;
+}
+
+footer .container {
+    height: 64px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer > .container > p {
+    line-height: 64px;
+    float: left;
+    color: #fff;
+}
+
+footer > .container > span {
+    float: right;
+    margin: 14px 40px;
+}
+
+footer > .container > span img {
+    margin-left: 4px;
+    opacity: .7;
+}
+
+footer > .container > span img:hover {
+    opacity: 1;
+    cursor: pointer;
 }
